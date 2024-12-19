@@ -28,3 +28,12 @@ To run app2
 
 Run server and go to url localhost:8000
 
+
+To access admin interface(to manage users, groups and databases):
+
+Run server and go to url localhost:8000/admin
+
+You will need to create a user before; in your terminal run:
+```bash
+python manage.py createsuperuser
+```
