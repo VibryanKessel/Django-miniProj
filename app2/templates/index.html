@@ -1,1 +1,15 @@
+{% load static %}
+
 {{ messages }}
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<hr>
+<div class="container">
+    {% for message in messages %}
+        <div class="container-message">
+            <div class="container-title">{{ message.title }}</div>
+            <div class="container-content">{{ message.content }}</div>
+            <div class="container-date">{{ message.created_at }}</div>
+        </div>
+    {% endfor %}
+</div>
