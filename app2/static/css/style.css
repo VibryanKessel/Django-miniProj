@@ -27,3 +27,9 @@
     font-size: 1rem;
     color: rgba(80, 80, 80, 0.5); 
 }
+
+.form{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.25rem;
+}
