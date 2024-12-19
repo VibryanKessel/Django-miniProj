@@ -1,9 +1,10 @@
-##DJANGO MINIPROJ
+## DJANGO MINIPROJ
 
 This is a Django project
 
 Django uses a MVT architecture
-![alt text](<MVT architecture.png>)
+![MVT architecture](https://github.com/user-attachments/assets/9db209a6-f65c-41f5-ba74-e51a5f4b0c77)
+
 
 Prerequisites 
     Python interpreter (Python 3.9.16)
