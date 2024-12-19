@@ -21,3 +21,9 @@
     font-weight: bold;
     padding-bottom: 3.5px;
 }
+
+.container-user{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: rgba(80, 80, 80, 0.5); 
+}
